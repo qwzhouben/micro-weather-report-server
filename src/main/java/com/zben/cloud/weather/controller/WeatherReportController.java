@@ -31,6 +31,7 @@ public class WeatherReportController {
         List<City> cityList = new ArrayList<>();
         City city = new City();
         city.setCityId("101280101");
+        city.setCityName("广州");
         cityList.add(city);
         model.addAttribute("title", "老周老笨的天气预报");
         model.addAttribute("cityId", cityId);
